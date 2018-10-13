@@ -14,7 +14,7 @@ function CalcIPK(nilai_akhir) {
   } else if (nilai_akhir >= 85 && nilai_akhir <= 100) {
     return ("A")
   } else {
-    return ("DDD")
+    return ("Undefined")
   }
 }
 
