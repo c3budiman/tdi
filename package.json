@@ -1,0 +1,22 @@
+{
+  "name": "tdi",
+  "version": "1.0.0",
+  "description": "Testing dan Implementasi Checker IPK",
+  "main": "checkerIPK.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Testing",
+    "dengan",
+    "jest",
+    "dan",
+    "circle",
+    "ci"
+  ],
+  "author": "Cecep Budiman",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
