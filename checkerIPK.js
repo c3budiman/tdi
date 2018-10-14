@@ -1,5 +1,9 @@
 function HitungNilaiAkhir(nilaiuts, nilaiuas) {
-  return (nilaiuts*0.7)+(nilaiuas*0.3)
+  if (isNaN(nilaiuas) || isNaN(nilaiuts)) {
+    return ('Input Uts atau Uas bukan angka!')
+  } else {
+    return (nilaiuts*0.7)+(nilaiuas*0.3)
+  }
 }
 
 function CalcIPK(nilai_akhir) {
