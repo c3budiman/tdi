@@ -18,4 +18,14 @@ function CalcIPK(nilai_akhir) {
   }
 }
 
-module.exports = {HitungNilaiAkhir, CalcIPK}
+function checkLulus(nilai_akhir) {
+  if (nilai_akhir >= 0 && nilai_akhir < 40) {
+    return ("Tidak Lulus")
+  } else if (nilai_akhir >= 40 && nilai_akhir <= 100) {
+    return ("Lulus")
+  } else {
+    return ("Undefined")
+  }
+}
+
+module.exports = {HitungNilaiAkhir, CalcIPK, checkLulus}
