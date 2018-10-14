@@ -17,9 +17,9 @@ rl.question('Nama : ', (nama) => {
       rl.question('Nilai UAS: ', (uas) => {
         console.log('')
         console.log(`Dear, ${nama} | NPM : (${npm}) `);
-        console.log(`Nilai UTS : ${uts} | Nilai UAS : (${uas}) `);
+        console.log(`Nilai UTS : ${uts} | Nilai UAS : ${uas} `);
         console.log('')
-        console.log(`Nilai Akhir ${HitungNilaiAkhir(uts,uas)}`);
+        console.log(`Nilai Akhir : ${HitungNilaiAkhir(uts,uas)}`);
         console.log(`IPK : ${CalcIPK(HitungNilaiAkhir(uts,uas))}`);
         console.log(`Ketuntasan : ${checkLulus(HitungNilaiAkhir(uts,uas))}`);
         rl.close();
